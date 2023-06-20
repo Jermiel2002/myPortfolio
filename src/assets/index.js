@@ -26,9 +26,11 @@ import zia from "./company/zia.jpg";
 import bliwe from "./company/bliwe.png";
 import diploop from "./company/diploop.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import projet1 from "./projet1.png";
+import projet2 from "./projet2.png";
+import projet3 from "./projet3.png";
+import projet4 from "./projet4.jpg";
+import projet5 from "./projet5.jpg";
 
 export {
   logo,
@@ -56,7 +58,9 @@ export {
   zia,
   bliwe,
   diploop,
-  carrent,
-  jobit,
-  tripguide,
+  projet1,
+  projet2,
+  projet3,
+  projet4,
+  projet5,
 };

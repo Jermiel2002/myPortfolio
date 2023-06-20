@@ -15,13 +15,14 @@ import {
     git,
     langC,
     docker,
-    meta,
     bliwe,
     diploop,
     zia,
-    carrent,
-    jobit,
-    tripguide,
+    projet1,
+    projet2,
+    projet3,
+    projet4,
+    projet5,
     threejs,
   } from "../assets";
   
@@ -158,97 +159,117 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Dev Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My full stack developper's portfolio.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react three fiber",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "Framer Motion",
+          color: "red-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: projet1,
+      source_code_link: "https://github.com/Jermiel2002/my-portfolio",
     },
     {
-      name: "Job IT",
+      name: "A functional window manager",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+        "The aim of this project is to program a proof-of-concept for a window manager where desktop windows are described by a tree. In particular, to enable rapid access to the active window, a tree zipper will be used..",
+      tags : [
         {
-          name: "react",
+          name: "Ocaml",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "zipper/tree",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Algorithm",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: projet2,
+      source_code_link: "https://github.com/Jermiel2002/gestionnaire-de-fen-tres-en-mosa-que",
     },
     {
-      name: "Trip Guide",
+      name: "Monster game simulator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The aim of the project is to program a simulator of the life of a poor monster who spends his time sleeping, running, fighting, working and eating. The user must monitor his condition and make him perform actions that cause him to gain or lose life points or money in order to keep him alive or money to keep him alive.",
       tags: [
         {
-          name: "nextjs",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html5&css3",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "jquery",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/Jermiel2002",
+      image: projet3,
+      source_code_link: "https://github.com/Jermiel2002/MonsterHigh",
+    },
+
+    {
+      name: "City mapper",
+      description:
+        "The aim of this very interesting project is to build a public transport application for public transport that uses a PostgreSQL database for data management data management.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Graph algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: projet4,
+      source_code_link: "https://github.com/Jermiel2002/my-portfolio",
+    },
+    {
+      name: "checkers game",
+      description:
+        "The aim of this very interesting project is to Program robots to play checkers and challenge your fellow robots. Game results and annotations will be sent to the server listening on port 5777 of 2001:910:1410:523:0:fada:80af:2bc2.",
+      tags: [
+        {
+          name: "Language C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "system & network",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Graph algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: projet5,
+      source_code_link: "https://github.com/Jermiel2002/jeu-dame-hacksys",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -8,7 +8,6 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from '../utils/motion';
 
 
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -27,20 +26,21 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send
+    (
+      'service_egtoowm', 
+      'template_y8c8e72', 
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jermiel",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jermielkounouho@yahoo.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'wOnTRLeRcCtc-RJ8j',
       )
-      .then(
+      .then
+      (
         () => {
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
@@ -53,7 +53,7 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.log(error);
 
           alert("Ahh, something went wrong. Please try again.");
         }

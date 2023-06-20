@@ -183,7 +183,7 @@ import {
         },
       ],
       image: projet1,
-      source_code_link: "https://github.com/Jermiel2002/my-portfolio",
+      source_code_link: "https://github.com/Jermiel2002/myPortfolio",
     },
     {
       name: "A functional window manager",

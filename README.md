@@ -19,7 +19,7 @@ Durant la création de ce site web, j'ai aussi appris à utiliser
 
 ---
 
-# Initialisation de l'app
+# Initialisation de l'app et mise en place des dossiers et fichiers nécessaires
 
 Pour initialiser notre application on va utiliser un outil appelé *vite*
 
@@ -50,3 +50,23 @@ Pour initialiser notre application on va utiliser un outil appelé *vite*
 + on configure notre fichier `tailwind.config.cjs` qui va contenir des couleurs qu'on nommera *primary*, *secondary* et *tertiary* , *black-100*, *black-200* et *white-100*  on aura aussi un style *boxShadow*, *screens* et un *backgroundImage*
 + on crée un dossier `utils` dans lequel on crée un fichier `motion.js` qui va contenir quelques animations Framer motion qu'on va utiliser dans notre projet
 + on crée un dossier `constants` et un à l'intérieur un nouveau fichier `index.js` qui va contenir touts les contenus qu'on aura dans notre application (  services, technologies, experiences, testimonials, projects)
+
+---
+# Lancement de l'application
+`npm run dev`
+
+---
+# Creation de la squelette de notre projet dans le fichier `App.jsx`
+> ```
+> import { BrowserRouter } from 'react-router-dom';
+> import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+>
+> const App = () => {
+>   return (
+>     <BrowserRouter>
+>      //on met tout le contenu
+>     </BrowserRouter>
+>   )
+> ```
+> + React Router DOM est une bibliothèque JavaScript utilisée avec React pour gérer la navigation dans une application web. Elle permet de créer des routes, de gérer les URL et d'afficher les composants correspondants en fonction de l'URL actuelle.
+> + la balise <BrowserRouter> est utilisée pour encapsuler votre application et fournir un contexte de routage. Elle facilite la gestion de l'historique de navigation, des routes et permet à React Router DOM de gérer la navigation de manière efficace et réactive dans votre application React.

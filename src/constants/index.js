@@ -74,33 +74,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
     },
     {
       name: "Postgresql",
       icon: postgresql,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
@@ -109,10 +88,6 @@ import {
     {
       name: "langC",
       icon: langC,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -177,10 +152,6 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
-        {
-          name: "Framer Motion",
-          color: "red-text-gradient",
-        },
       ],
       image: projet1,
       source_code_link: "https://github.com/Jermiel2002/myPortfolio",
@@ -199,7 +170,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Algorithm",
+          name: "Graph algorithms",
           color: "pink-text-gradient",
         },
       ],

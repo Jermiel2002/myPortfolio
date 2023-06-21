@@ -30,6 +30,7 @@ Pour initialiser notre application on va utiliser un outil appelé *vite*
                                 2. `npx tailwindcss init`  
                                 3. ```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
                                 framer-motion react-router-dom```
+                                4. `npm install --legacy-peer-deps -D postcss autoprefixer`
                                 
 **Dossiers et fichiers nécessaires** :  
 + un dossier *public* contenant les modèles 3d (bureau d'ordianteur et planète)
@@ -66,7 +67,18 @@ Pour initialiser notre application on va utiliser un outil appelé *vite*
 >     <BrowserRouter>
 >      //on met tout le contenu
 >     </BrowserRouter>
->   )
+>   )}
 > ```
 > + React Router DOM est une bibliothèque JavaScript utilisée avec React pour gérer la navigation dans une application web. Elle permet de créer des routes, de gérer les URL et d'afficher les composants correspondants en fonction de l'URL actuelle.
 > + la balise <BrowserRouter> est utilisée pour encapsuler votre application et fournir un contexte de routage. Elle facilite la gestion de l'historique de navigation, des routes et permet à React Router DOM de gérer la navigation de manière efficace et réactive dans votre application React.
+
+---
+# Creation de la barre de navigation
+
+> ```
+> import React, { useEffect, useState } from 'react';
+> import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+> on utilise la balise nav pour indiquer qu'il s'agit du menu de navigation et la balise link qui pointe sur le top de notre page
+> Si on veut personnalisation la maière dont s'affiche notre page dans son onglet sur le navigateur, on va dans le fichier `index.html` où on renomme le titre et on importe notre logo à l'aide de la balise `<link rel="icon" type="image/svg+xml" href="/logo.svg"` 
+> 
+> ```

@@ -78,7 +78,7 @@ Pour initialiser notre application on va utiliser un outil appelé *vite*
 > ```
 > import React, { useEffect, useState } from 'react';
 > import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+>  ```
 > on utilise la balise nav pour indiquer qu'il s'agit du menu de navigation et la balise link qui pointe sur le top de notre page
 > Si on veut personnalisation la maière dont s'affiche notre page dans son onglet sur le navigateur, on va dans le fichier `index.html` où on renomme le titre et on importe notre logo à l'aide de la balise `<link rel="icon" type="image/svg+xml" href="/logo.svg"` 
-> 
-> ```
+

@@ -6,7 +6,7 @@ Durant la création de ce site web, j'ai aussi appris à utiliser
   2- une librairie particulière pour threejs dans react (react three fiber)
   3- tailwindcss un framework css populaire, axé sur l'utilité d'abord
   
-      tailwind CSS est un framework CSS open source. La principale caractéristique de cette bibliothèque est que, contrairement à d’autres frameworks CSS comme Bootstrap, elle        ne fournit pas une série de classes prédéfinies pour des éléments tels que des boutons ou des tables. Au lieu de cela, il crée une liste de classes CSS « utilitaires »          qui peuvent être utilisées pour styliser chaque élément en mélangeant et en faisant correspondre.
+  > tailwind CSS est un framework CSS open source. La principale caractéristique de cette bibliothèque est que, contrairement à d’autres frameworks CSS comme Bootstrap,       > elle ne fournit pas une série de classes prédéfinies pour des éléments tels que des boutons ou des tables. Au lieu de cela, il crée une liste de classes CSS «             > utilitaires » qui peuvent être utilisées pour styliser chaque élément en mélangeant et en faisant correspondre.
       
   4- Framer Motion, une bibliothèque d'animation populaire pour les applications React qui fournit une API simple et intuitive pour créer des animations époustouflantes
 

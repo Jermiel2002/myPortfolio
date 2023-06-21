@@ -24,9 +24,29 @@ Durant la création de ce site web, j'ai aussi appris à utiliser
 Pour initialiser notre application on va utiliser un outil appelé *vite*
 
 **Creation du projet** : `npm create vite@latest ./ -- -- template react`  
-**Installation des packages** :   
-                                + `npm install -D tailwindcss `  
-                                + `npx tailwindcss init`  
-                                + ```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
-                                framer-motion react-router-dom```
 
+**Installation des packages** :   
+                                1. `npm install -D tailwindcss `  
+                                2. `npx tailwindcss init`  
+                                3. ```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
+                                framer-motion react-router-dom```
+                                
+**Dossiers et fichiers nécessaires** :  
++ un dossier *public* contenant les modèles 3d (bureau d'ordianteur et planète)
++ un dossier *assets* qui contient tous les images et icônes pour notre application
++ un dossier *components* qui contient tous les composants de notre site web
++ On supprime le fichier `App.css` et on modifie le fichier `App.js` fournit par vite:
+  > ```
+  > const App = () => {
+  > return (
+  >   <div>
+  >     3D Developper Portfolio
+  >   <div>
+  > )
+  > export default App
+  > ```
++ on modifie le fichier `index.css` qui contient les gradients, les box-shadows de même que les imports tailwind et l'import des fonts qui seront utilisés
++ on crée un fichier `style.js` où on crée des styles tailwindcss qui nous sera utile pour le *heroHeadText*, *heroSubText*, *sectionHeadText* et *sectionSubText*
++ on configure notre fichier `tailwind.config.cjs` qui va contenir des couleurs qu'on nommera *primary*, *secondary* et *tertiary* , *black-100*, *black-200* et *white-100*  on aura aussi un style *boxShadow*, *screens* et un *backgroundImage*
++ on crée un dossier `utils` dans lequel on crée un fichier `motion.js` qui va contenir quelques animations Framer motion qu'on va utiliser dans notre projet
++ on crée un dossier `constants` et un à l'intérieur un nouveau fichier `index.js` qui va contenir touts les contenus qu'on aura dans notre application (  services, technologies, experiences, testimonials, projects)

@@ -23,10 +23,10 @@ Durant la création de ce site web, j'ai aussi appris à utiliser
 
 Pour initialiser notre application on va utiliser un outil appelé *vite*
 
-**Creation du projet** : `npm create vite@latest ./ -- -- template react`
-**Installation des packages** : 
-                                `npm install -D tailwindcss `
-                                `npx tailwindcss init`
-                                ```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
+**Creation du projet** : `npm create vite@latest ./ -- -- template react`  
+**Installation des packages** :   
+                                -  `npm install -D tailwindcss `
+                                -  `npx tailwindcss init`
+                                -```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
                                 framer-motion react-router-dom```
 

@@ -1,4 +1,5 @@
 # Portfolio explication
+
 C'est plus facile lorsqu'on a compris quelques concept liés à la camera, l'éclairage et la geometrie.
 
 Durant la création de ce site web, j'ai aussi appris à utiliser 
@@ -15,3 +16,17 @@ Durant la création de ce site web, j'ai aussi appris à utiliser
   +  comprendre le monde 3D avec la caméra et le positionnement d'un objet dans l'espace
   +  rendre notre code réutilisable, scalable avec des composants d'odre supérieurs et les meilleurs pratiques de l'industrie
   + implémenter l'envoie d'email depuis notre site web avec Email js et assurer la responsivité de mon site web
+
+---
+
+# Initialisation de l'app
+
+Pour initialiser notre application on va utiliser un outil appelé *vite*
+
+**Creation du projet** : `npm create vite@latest ./ -- -- template react`
+**Installation des packages** : 
+                                `npm install -D tailwindcss `
+                                `npx tailwindcss init`
+                                ```npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser
+                                framer-motion react-router-dom```
+

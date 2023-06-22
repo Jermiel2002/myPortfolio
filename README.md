@@ -89,3 +89,8 @@ Pour initialiser notre application on va utiliser un outil appelé *vite*
 > import { styles } from '../styles';
 > import { ComputerCanvas } from './canvas';
 >  ```
+
+---
+# Deployement du site web sur github
+`https://www.youtube.com/watch?v=XhoWXhyuW_I`  
+`https://vitejs.dev/guide/static-deploy.html`
